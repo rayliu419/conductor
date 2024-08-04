@@ -14,6 +14,7 @@ services:
     ports:
       - 8080:8080
       - 5000:5000
+      - 5005:5005
     healthcheck:
       test: ["CMD", "curl","-I" ,"-XGET", "http://localhost:8080/health"]
       interval: 60s

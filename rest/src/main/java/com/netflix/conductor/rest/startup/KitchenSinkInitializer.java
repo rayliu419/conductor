@@ -72,7 +72,7 @@ public class KitchenSinkInitializer {
         try {
             if (loadSamples) {
                 LOGGER.info("Loading Kitchen Sink examples");
-                createKitchenSink();
+                // createKitchenSink();
             }
         } catch (Exception e) {
             LOGGER.error("Error initializing kitchen sink", e);
